@@ -1,0 +1,27 @@
+@font-face {
+  font-family: gotham;
+  src: url(fonts/GothamRoundedMedium_21022.ttf);
+}
+
+* {
+  font-family: gotham, sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+button {
+  margin-top: 1%;
+}
+
+.hide {
+  display: none;
+}
